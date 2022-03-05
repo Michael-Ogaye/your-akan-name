@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 250px;
+    max-height: 1400px;
+
+}
+.carousel-inner{
+    width: 100%;
+    margin: 0 auto;
+}
