@@ -85,23 +85,22 @@
     </div>
   </section>
   <div class="datauser">
-    <form>
+    <form class="form p-3 mt-5 rounded bg-success">
       <div class="m-3 ">
-        <h3>Your Akan-Name </h3>
-        <p class="text-info">We have something intresting for you <br>Provide your date of birth and gender <br> and we will predict your Akan name</p>
-        
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        <h3 class="text-light text-center">Your Akan-Name </h3>
+        <p class="text-info text-center">We have something intresting for you <br>Provide your date of birth and gender <br> and we will predict your Akan name</p>
+        <label for="dob" class="form-label ms-3 ">Enter your date of birth</label>
+        <input type="date" class="form-control" id="dob" aria-describedby="warn">
+        <div id="warn" class="form-text text-warning">We'll never share your information with anyone else.</div>
       </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-      </div>
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      
+      <div class="mb-3 ">
+        <label for="gender" class="form-label ms-3">Provide gender </label>
+        <select name="gender" id="gender" class="form-select">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <button type="submit" class="btn btn-outline-primary text-white m-4  text-center" id="collect">Submit</button>
     </form>
   </div>
 
