@@ -8,7 +8,17 @@ img{
     max-height: 1400px;
 
 }
+
+body{
+    padding-left: 3%;
+    padding-right: 3%;
+}
 .carousel-inner{
     width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    width: 50%;
     margin: 0 auto;
 }
