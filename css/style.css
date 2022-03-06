@@ -29,6 +29,7 @@ footer{
     margin: 0 auto;
     margin-right: -10%;
     transform: translateX(10%);
+    clip-path: polygon(51% 0, 83% 12%, 88% 53%, 94% 78%, 68% 100%, 35% 84%, 6% 78%, 11% 44%, 17% 12%);
     
     padding: 5rem;
     background-color: khaki;
