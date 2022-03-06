@@ -76,3 +76,25 @@ btnSub.addEventListener('click', (e)=>{
 
 
 })
+// search logic
+let words=document.querySelectorAll("div.tab-pane");
+
+let term=document.getElementById("searcha");
+term.addEventListener("keyup",(e)=>{
+  e.preventDefault();
+
+  for(var i=0; i<words.length; i++){
+    
+    let workArea=words[i].textContent;
+    let searchterm= term.value.toLowerCase();
+    
+    if(workArea.toLowerCase().indexOf(searchterm)!= -1){
+     words[i].style.display='block' ;
+     searchterm.style.color= "red"
+    }
+
+    else{
+    words[i].style.display='none';
+    }
+  }
+})

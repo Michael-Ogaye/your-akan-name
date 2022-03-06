@@ -38,7 +38,7 @@ footer{
     /* margin-right: -10%;
     transform: translateX(10%); */
     clip-path: polygon(51% 0, 83% 12%, 88% 53%, 94% 78%, 68% 100%, 35% 84%, 6% 78%, 11% 44%, 17% 12%);
-    animation: move 4s 2s ease-out backwards 7 reverse;
+    animation: move 4s 2s ease-out backwards 4 reverse;
     padding: 5rem;
     background-color: khaki;
     display: none;
