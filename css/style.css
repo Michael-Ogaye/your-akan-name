@@ -9,10 +9,7 @@ img{
 
 }
 
-body{
-    padding-left: 3%;
-    padding-right: 3%;
-}
+
 .carousel-inner{
     width: 100%;
     margin: 0 auto;
@@ -26,4 +23,13 @@ form{
 footer{
     margin: 0 auto;
     text-align: center;
+}
+#feedback{
+    width: 70%;
+    margin: 0 auto;
+    margin-right: -10%;
+    transform: translateX(10%);
+    
+    padding: 5rem;
+    background-color: khaki;
 }
