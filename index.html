@@ -13,17 +13,17 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-success p-4" >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">AkanName</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand text-light" href="#">Akan-People</a>
+          <button class="navbar-toggler text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-light" aria-current="page" href="#dec">Documentation</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Documentation</a>
+                <a class="nav-link text-light" href="#details">GetName</a>
               </li>
               
              
@@ -35,7 +35,7 @@
           </div>
         </div>
       </nav>
-      <section>
+      <section class="imaga">
           <div class="slide">
             <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -68,7 +68,7 @@
 </header>
 
 <main>
-  <section class="des">
+  <section class="des" id="dec">
     <nav>
       <div class="nav nav-tabs bg-success" id="nav-tab" role="tablist">
         <button class="nav-link active text-danger" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Naming-system</button>
@@ -87,22 +87,22 @@
 
   </section>
   <div class>
-    <form class="form p-3 mt-5 mb-4 rounded bg-success" id="details">
+    <form class="form p-3 mt-5 mb-4 rounded text-center" id="details">
       <div class=" ">
-        <h3 class="text-light text-center">Your Akan-Name </h3>
+        <h3 class="text-success text-center">Your Akan-Name </h3>
         <p class="text-info text-center">We have something interesting for you <br>Provide your date of birth and gender <br> and we will predict your Akan name</p>
-        <label for="dob" class="form-label ms-3 ">Enter your date of birth</label>
-        <input type="date" class="form-control" id="dob" value="2022-03-05" aria-describedby="warn">
-        <div id="warn" class="form-text text-warning">We'll never share your information with anyone else.</div>
+        <label for="dob" class="form-label ms-3 mb-2 text-success">Enter your date of birth</label>
+        <input type="date" class="form-control mb-2 w-60 " id="dob" value="2022-03-05" aria-describedby="warn">
+        <div id="warn" class="form-text text-info mb-4">We'll never share your information with anyone else.</div>
       </div>
       
       <div class="mb-3 ">
-        <label for="gender" class="form-label ms-3">Provide gender </label>
-        <select name="gender" id="gender" class="form-select">
+        <label for="gender" class="form-label ms-3 mb-2 text-success" >Provide gender </label>
+        <select name="gender" id="gender" class="form-select mb-4 w-60">
         <option value="Male">Male</option>
         <option value="Female">Female</option>
       </select>
-      <button type="submit" class="btn btn-outline-primary text-white m-4  text-center" id="collect">Submit</button>
+      <button type="submit" class="btn btn-outline-success text-info m-4  text-center" id="collect">Submit</button>
     </form>
   </div>
 
@@ -113,7 +113,7 @@
 
 </main>
 
-<footer class="bg-success text-light">
+<footer class="bg-success text-light mt-5">
   <p>Designed by Michael &copy 2022</p>
 </footer>
 
