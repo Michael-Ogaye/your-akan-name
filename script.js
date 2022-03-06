@@ -48,10 +48,18 @@ btnSub.addEventListener('click', (e)=>{
     console.log(akanName)
     let fdback=document.getElementById('feedback');
     fdback.innerHTML=`<P class="text-success fs-4">Wow !your Akan-Name is: <span class="text-danger">${akanName}</span></p>
-    <p class="tex-muted mt-2">Press the button to try again</P
-    <button class="btn btn-primary" type="submit">Try again</button>`;
+    <p class="tex-muted mt-2">Press the button to try again</p>
+    <button class="btn btn-outline-success " type="submit">Try again</button>`;
     document.forms['details'].style.display='none';
     fdback.style.display="block";
+    let trybtn=document.querySelector("#feedback button");
+    trybtn.addEventListener('click',(e)=>{
+      e.preventDefault();
+      document.forms['details'].style.display='block';
+      fdback.style.display='none';
+
+    })
+
 
 
 
