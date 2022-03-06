@@ -11,7 +11,7 @@
 + [Licence](#licence)
 + [Authors Info](#aut)
 ## Description
-<p>This is one of the interesting web apps- the akan naming system web app allows the user to experiment with the Akan culture, the app is capable of predicting your Akan name by just providing your birthday and gender </p>
+<p>This is one of the interesting web apps- the akan naming system web app allows the user to experiment with the Akan culture, the app is capable of predicting your Akan name by just providing your birthday and gender</p>
 
 ## Design
 The design for this website was done using pen hand paper, every layout is well designed and generally  appealing.
